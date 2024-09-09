@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    width: 300px;
+}
+.ulogo{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+li{
+    justify-content: space-between;
+}
+.logob{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+.logob:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: 2px solid #1AAB7B;
+    
+    transition: 0.5s;
+}
+.alogo{
+    color: black;
+}
+.alogo:hover{
+    color: #1AAB7B;
+    font-size: 110%;
+    transition: 0.5s;
+    
+}
+.logoimg:active{
+opacity: 0.5;
+}
+.alogo:active{
+    color: #1AAB7B;
+    font-size: 110%;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.logob:active{
+    background-color: #101010;
+    color: white;
+    opacity: 0.5;
+    border: 2px solid black;
+    
+}
+.s1matn{
+    width: 500px;
+}
+.divs1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1220px;
+    margin-top: 100px;
+    gap: 50px;
+}
+.s1h1{
+    font-size: 385%;
+}
+.s1b{
+     margin-top: 20px;
+    padding: 15px;
+    background-color: #1AAB7B;
+    color: white;
+    width: 168px;
+    border:none;
+    border-radius: 5px;
+}
+.s1b:hover{
+    color: #1AAB7B;
+    border: 2px solid  #1AAB7B;
+    background-color: white;
+    transition: 0.5s;
+    width: 168px;
+    border-radius: 5px;
+}
+.s1b:active{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1AAB7B;
+    color: white;
+    width: 168px;
+    border:none;
+    border-radius: 5px;
+    opacity:0.5;
+}
+.s2h1{
+    text-align: center;
+    margin: 0 auto;
+}
+.section2{
+    margin-top: 60px;
+}
+.box{
+    width: 320px;
+    height: 320px;
+    background-color: white;
+   margin: 30px;
+    padding: 30px;
+    
+}
+p{
+    margin: 50px 0;
+    opacity: 0.5;
+}
+.allbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1300px;
+}
+.box:hover{
+    background-color: #1AAB7B;
+    color: white;
+    transition: 0.5s;
+}
+a{
+    color: black;
+}
+.backimg{
+    background-image: url('/image\ 1\ \(4\).png');
+    background-size: cover;
+    background-position: center;
+    height: 515px;
+    width: 1216px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s3h1{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+.section3{
+    margin-top: 60px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+}
+.form{
+   
+    
+    
+    opacity: 0.8;
+    width: 300px;
+    color: white;
+    background-color: #101010;
+    padding: px;
+    align-items: center;
+    width: 556px;
+    height: 380px;
+    
+}
+button{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1AAB7B;
+    color: white;
+    width: 168px;
+    border:none;
+    border-radius: 5px;
+}
+button:hover{
+    color: #1AAB7B;
+    border: 2px solid  #1AAB7B;
+    background-color: white;
+    transition: 0.5s;
+    width: 168px;
+    border-radius: 5px;
+}
+.ph{
+    margin: 0 auto;
+    margin-top: 12px;
+}
+input{
+    background-color: #101010;
+    border: none;
+    border-bottom: #555252;
+    color: white;
+    margin: 20px 0 ;
+}
+footer{
+    background-color: black;
+    margin: 60px 0;
+
+}
+.footer{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+}
+.end{
+    width: 100px;
+}
+.ul2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

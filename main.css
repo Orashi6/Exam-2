@@ -148,7 +148,7 @@ a{
     color: black;
 }
 .backimg{
-    background-image: url('/image\ 1\ \(4\).png');
+    background-image:url(image\ 1\ \(4\).png);
     background-size: cover;
     background-position: center;
     height: 515px;
